@@ -2,3 +2,90 @@
 /docs/latex
 *.bak
 TODO.txt
+
+# Prerequisites
+*.d
+
+# Object files
+*.o
+*.ko
+*.obj
+*.elf
+
+# Linker output
+*.ilk
+*.map
+*.exp
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Libraries
+*.lib
+*.a
+*.la
+*.lo
+
+# Shared objects (inc. Windows DLLs)
+*.dll
+*.so
+*.so.*
+*.dylib
+
+# Executables
+*.exe
+*.out
+*.app
+*.i*86
+*.x86_64
+
+# Debug files
+*.dSYM/
+*.su
+*.idb
+*.pdb
+
+# Kernel Module Compile Results
+*.mod*
+*.cmd
+.tmp_versions/
+modules.order
+Module.symvers
+Mkfile.old
+dkms.conf
+examples/PIC32CM_LS60/ewf_certs_basic_bm_bg96/NonSecure/firmware/ewf_certs_basic_bm_bg96_NonSecure.X/build/
+examples/PIC32CM_LS60/ewf_certs_basic_bm_bg96/Secure/firmware/ewf_certs_basic_bm_bg96_Secure.X/build/
+examples/PIC32CM_LS60/ewf_certs_basic_bm_bg96/NonSecure/firmware/ewf_certs_basic_bm_bg96_NonSecure.X/debug/
+examples/PIC32CM_LS60/ewf_certs_basic_bm_bg96/Secure/firmware/ewf_certs_basic_bm_bg96_Secure.X/debug/
+examples/PIC32CM_LS60/ewf_certs_basic_bm_bg96/NonSecure/firmware/ewf_certs_basic_bm_bg96_NonSecure.X/dist/
+examples/PIC32CM_LS60/ewf_certs_basic_bm_bg96/Secure/firmware/ewf_certs_basic_bm_bg96_Secure.X/dist/
+examples/PIC32CM_LS60/ewf_certs_basic_bm_bg96/NonSecure/firmware/ewf_certs_basic_bm_bg96_NonSecure.X/.generated_files/
+examples/PIC32CM_LS60/ewf_certs_basic_bm_bg96/Secure/firmware/ewf_certs_basic_bm_bg96_Secure.X/.generated_files/
+
+examples/PIC32CM_LS60/ewf_info_baremetal_bg96/NonSecure/firmware/ewf_info_baremetal_bg96_NonSecure.X/build/
+examples/PIC32CM_LS60/ewf_info_baremetal_bg96/Secure/firmware/ewf_info_baremetal_bg96_Secure.X/build/
+examples/PIC32CM_LS60/ewf_info_baremetal_bg96/NonSecure/firmware/ewf_info_baremetal_bg96_NonSecure.X/debug/
+examples/PIC32CM_LS60/ewf_info_baremetal_bg96/Secure/firmware/ewf_info_baremetal_bg96_Secure.X/debug/
+examples/PIC32CM_LS60/ewf_info_baremetal_bg96/NonSecure/firmware/ewf_info_baremetal_bg96_NonSecure.X/dist/
+examples/PIC32CM_LS60/ewf_info_baremetal_bg96/Secure/firmware/ewf_info_baremetal_bg96_Secure.X/dist/
+examples/PIC32CM_LS60/ewf_info_baremetal_bg96/NonSecure/firmware/ewf_info_baremetal_bg96_NonSecure.X/.generated_files/
+examples/PIC32CM_LS60/ewf_info_baremetal_bg96/Secure/firmware/ewf_info_baremetal_bg96_Secure.X/.generated_files/
+
+examples/PIC32CM_LS60/ewf_telemetry_bm_bg96/NonSecure/firmware/ewf_telemetry_bm_bg96_NonSecure.X/build/
+examples/PIC32CM_LS60/ewf_telemetry_bm_bg96/Secure/firmware/ewf_telemetry_bm_bg96_Secure.X/build/
+examples/PIC32CM_LS60/ewf_telemetry_bm_bg96/NonSecure/firmware/ewf_telemetry_bm_bg96_NonSecure.X/debug/
+examples/PIC32CM_LS60/ewf_telemetry_bm_bg96/Secure/firmware/ewf_telemetry_bm_bg96_Secure.X/debug/
+examples/PIC32CM_LS60/ewf_telemetry_bm_bg96/NonSecure/firmware/ewf_telemetry_bm_bg96_NonSecure.X/dist/
+examples/PIC32CM_LS60/ewf_telemetry_bm_bg96/Secure/firmware/ewf_telemetry_bm_bg96_Secure.X/dist/
+examples/PIC32CM_LS60/ewf_telemetry_bm_bg96/NonSecure/firmware/ewf_telemetry_bm_bg96_NonSecure.X/.generated_files/
+examples/PIC32CM_LS60/ewf_telemetry_bm_bg96/Secure/firmware/ewf_telemetry_bm_bg96_Secure.X/.generated_files/
+
+examples/PIC32CM_LS60/ewf_test_bm_bg96/NonSecure/firmware/ewf_test_bm_bg96_NonSecure.X/build/
+examples/PIC32CM_LS60/ewf_test_bm_bg96/Secure/firmware/ewf_test_bm_bg96_Secure.X/build/
+examples/PIC32CM_LS60/ewf_test_bm_bg96/NonSecure/firmware/ewf_test_bm_bg96_NonSecure.X/debug/
+examples/PIC32CM_LS60/ewf_test_bm_bg96/Secure/firmware/ewf_test_bm_bg96_Secure.X/debug/
+examples/PIC32CM_LS60/ewf_test_bm_bg96/NonSecure/firmware/ewf_test_bm_bg96_NonSecure.X/dist/
+examples/PIC32CM_LS60/ewf_test_bm_bg96/Secure/firmware/ewf_test_bm_bg96_Secure.X/dist/
+examples/PIC32CM_LS60/ewf_test_bm_bg96/NonSecure/firmware/ewf_test_bm_bg96_NonSecure.X/.generated_files/
+examples/PIC32CM_LS60/ewf_test_bm_bg96/Secure/firmware/ewf_test_bm_bg96_Secure.X/.generated_files/
