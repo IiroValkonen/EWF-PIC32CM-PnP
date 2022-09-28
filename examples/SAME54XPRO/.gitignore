@@ -1,0 +1,9 @@
+*.pem.h
+**/.generated_files/
+**/build/
+**/dist/
+!/debug/
+/debug/**
+!/debug/sys_debug.h
+*.bak
+TODO.txt
