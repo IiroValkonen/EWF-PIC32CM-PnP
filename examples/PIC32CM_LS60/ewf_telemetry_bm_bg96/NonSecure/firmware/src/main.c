@@ -60,20 +60,20 @@ void mikroe_bg96_power_on()
 {
     GPIO_PB04_OutputEnable();
     GPIO_PB04_Clear();
-    SYSTICK_DelayMs(200); 
+    SYSTICK_DelayMs(200);
     GPIO_PB04_Set();
-    SYSTICK_DelayMs(2000); 
+    SYSTICK_DelayMs(2000);
     GPIO_PB04_Clear();
-    SYSTICK_DelayMs(5000);  
-}   
+    SYSTICK_DelayMs(5000);
+}
 int main(void) {
     /* Initialize all modules */
     SYS_Initialize(NULL);
-    
+
     SYSTICK_TimerStart();
 
-   // mikroe_bg96_power_on();
-    
+    mikroe_bg96_power_on();
+
     ewf_result result;
 
     ewf_allocator* message_allocator_ptr = NULL;
@@ -105,7 +105,7 @@ int main(void) {
 #ifdef EWF_ADAPTER_QUECTEL_BG96_TLS_BASIC_ENABLED
     if (ewf_result_failed(result = ewf_adapter_tls_basic_init(adapter_ptr)))
     {
-        EWF_LOG_ERROR("Failed to init the SSL basic API: ewf_result %d.\n", result);        
+        EWF_LOG_ERROR("Failed to init the SSL basic API: ewf_result %d.\n", result);
         exit(result);
     }
 #endif
@@ -131,7 +131,7 @@ int main(void) {
     {
         EWF_LOG(".");
         SYSTICK_DelayMs(1000);
-        
+
     }
 }
 
@@ -139,4 +139,3 @@ int main(void) {
 /*******************************************************************************
  End of File
  */
-
