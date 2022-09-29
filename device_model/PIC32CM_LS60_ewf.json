@@ -1,0 +1,30 @@
+{
+    "@id": "dtmi:com:Microchip:PIC32CM_LS60_ewf;1",
+    "@type": "Interface",
+    "contents": [
+        {
+            "@type": [
+                "Telemetry",
+                "Count"
+            ],
+            "description": {
+                "en": "Count value from device"
+            },
+            "displayName": {
+                "en": "Count"
+            },
+            "name": "count",
+            "schema": "integer"
+        }
+    ],
+    "description": {
+        "en": "Reports an increasing integer count."
+    },
+    "displayName": {
+        "en": "PIC32CM_LS60_ewf"
+    },
+    "@context": [
+        "dtmi:iotcentral:context;2",
+        "dtmi:dtdl:context;2"
+    ]
+}
